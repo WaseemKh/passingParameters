@@ -8,7 +8,7 @@ namespace passingParameters
 {
     internal class refByref
     {
-     public   static void Main()
+        public static void Main()
         {
             Employee ahmed = new Employee { Name = "Ahmed" };//https://miro.medium.com/max/1400/1*66pt_pDruUu79-FfM7ndqw.png
 

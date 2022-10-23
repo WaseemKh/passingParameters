@@ -8,7 +8,7 @@ namespace passingParameters
 {
     internal class referanceByvalue
     {
-        Employee ahmed = new Employee { Name = "Ahmed" };//https://miro.medium.com/max/1400/1*K1vWlw1vUkfG7x6vs0rzGA.png
+        Employee ahmed = new Employee { Name = "Ahmed" };//https://miro.medium.com/max/1400/1*66pt_pDruUu79-FfM7ndqw.png
         public void main()
         {
             Console.WriteLine($"Before calling RefByVal, ahmed = Employee ({ahmed.Name})");
@@ -19,7 +19,9 @@ namespace passingParameters
         private static void RefByVal(Employee x)
         {
             x.Name = "Tarek"; https://miro.medium.com/max/1400/1*n7jP0lZ5lSZzhSXp57DNsg.png
-            x = new Employee { Name = "Hasan" };//https://miro.medium.com/max/1400/1*zbLEGzmTw2Cqjc52f9368Q.png
+            
+            //x = new Employee { Name = "Hasan" };//https://miro.medium.com/max/1400/1*zbLEGzmTw2Cqjc52f9368Q.png
+            //Console.WriteLine($"in calling RefByVal -new object -, ahmed = Employee ({x.Name})"); //Hasan
         }
     }
 
